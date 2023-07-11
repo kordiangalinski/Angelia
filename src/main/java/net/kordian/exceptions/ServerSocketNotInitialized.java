@@ -1,4 +1,4 @@
-package net.kordian.server.exceptions;
+package net.kordian.exceptions;
 
 /**
  * The type Server socket not initialized.

@@ -1,8 +1,8 @@
 package net.kordian.server;
 
-import net.kordian.server.exceptions.ServerSocketNotInitialized;
-import net.kordian.server.exceptions.UnableToBindServerSocket;
-import net.kordian.server.exceptions.UnableToEstablishConnection;
+import net.kordian.exceptions.ServerSocketNotInitialized;
+import net.kordian.exceptions.UnableToBindServerSocket;
+import net.kordian.exceptions.UnableToEstablishConnection;
 
 /**
  * The type Ftp server.

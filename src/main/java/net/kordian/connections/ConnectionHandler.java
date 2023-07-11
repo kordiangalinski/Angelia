@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import net.kordian.authorization.UserStatus;
 import net.kordian.commands.Command;
 import net.kordian.commands.CommandFactory;
+import net.kordian.exceptions.CannotCloseDataConnection;
 
 import java.io.IOException;
 import java.net.Socket;

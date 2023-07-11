@@ -1,7 +1,7 @@
 package net.kordian.commands.impl;
 
 import net.kordian.commands.Command;
-import net.kordian.connections.CannotCloseDataConnection;
+import net.kordian.exceptions.CannotCloseDataConnection;
 import net.kordian.connections.ConnectionState;
 import net.kordian.connections.ControlConnection;
 import net.kordian.connections.DataConnection;

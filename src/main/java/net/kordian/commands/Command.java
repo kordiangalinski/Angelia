@@ -4,7 +4,7 @@
 package net.kordian.commands;
 
 import lombok.AllArgsConstructor;
-import net.kordian.connections.CannotCloseDataConnection;
+import net.kordian.exceptions.CannotCloseDataConnection;
 import net.kordian.connections.ConnectionState;
 import net.kordian.connections.ControlConnection;
 import net.kordian.connections.DataConnection;

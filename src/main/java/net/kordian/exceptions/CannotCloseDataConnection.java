@@ -1,4 +1,4 @@
-package net.kordian.connections;
+package net.kordian.exceptions;
 
 import java.io.IOException;
 
