@@ -23,6 +23,7 @@ public class FEATCommand extends Command {
                                    ControlConnection controlConnection,
                                    DataConnection dataConnection) {
         controlConnection.sendToClient("211-Extensions supported:");
+        // TODO: Extensions: AUTH_GSSAPI, SIZE, MDTM, UTF8, REST_STREAM, AUTH_TLS
         controlConnection.sendToClient("211 END");
 
         return state;
